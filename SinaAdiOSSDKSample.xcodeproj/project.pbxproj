@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFB716721AC24FE900221F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB716711AC24FE900221F8D /* main.m */; };
+		CFB716751AC24FE900221F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB716741AC24FE900221F8D /* AppDelegate.m */; };
+		CFB716781AC24FE900221F8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB716771AC24FE900221F8D /* ViewController.m */; };
+		CFB7167B1AC24FE900221F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB716791AC24FE900221F8D /* Main.storyboard */; };
+		CFB7167D1AC24FE900221F8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB7167C1AC24FE900221F8D /* Images.xcassets */; };
+		CFB716801AC24FE900221F8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFB7167E1AC24FE900221F8D /* LaunchScreen.xib */; };
+		CFB7168C1AC24FEA00221F8D /* SinaAdiOSSDKSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB7168B1AC24FEA00221F8D /* SinaAdiOSSDKSampleTests.m */; };
+		CFB716991AC251FB00221F8D /* SinaEyeResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFB716981AC251FB00221F8D /* SinaEyeResource.bundle */; };
+		CFB7169B1AC2580B00221F8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB7169A1AC2580B00221F8D /* CoreLocation.framework */; };
+		CFB7169D1AC2581B00221F8D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB7169C1AC2581B00221F8D /* AdSupport.framework */; };
+		CFB7169F1AC2582800221F8D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB7169E1AC2582800221F8D /* SystemConfiguration.framework */; };
+		CFB716A11AC2583000221F8D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB716A01AC2583000221F8D /* CoreTelephony.framework */; };
+		CFB716A31AC2583A00221F8D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB716A21AC2583A00221F8D /* CFNetwork.framework */; };
+		CFB716A91AC2951000221F8D /* libSinaAdSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB716A81AC2951000221F8D /* libSinaAdSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFB716861AC24FE900221F8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB716641AC24FE900221F8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFB7166B1AC24FE900221F8D;
+			remoteInfo = SinaAdiOSSDKSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFB7166C1AC24FE900221F8D /* SinaAdiOSSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaAdiOSSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB716701AC24FE900221F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB716711AC24FE900221F8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFB716731AC24FE900221F8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFB716741AC24FE900221F8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFB716761AC24FE900221F8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFB716771AC24FE900221F8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFB7167A1AC24FE900221F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFB7167C1AC24FE900221F8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFB7167F1AC24FE900221F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CFB716851AC24FE900221F8D /* SinaAdiOSSDKSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaAdiOSSDKSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB7168A1AC24FEA00221F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB7168B1AC24FEA00221F8D /* SinaAdiOSSDKSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaAdiOSSDKSampleTests.m; sourceTree = "<group>"; };
+		CFB716951AC2519100221F8D /* SAFeedsAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFeedsAdView.h; sourceTree = "<group>"; };
+		CFB716981AC251FB00221F8D /* SinaEyeResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SinaEyeResource.bundle; sourceTree = "<group>"; };
+		CFB7169A1AC2580B00221F8D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CFB7169C1AC2581B00221F8D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CFB7169E1AC2582800221F8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CFB716A01AC2583000221F8D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CFB716A21AC2583A00221F8D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CFB716A81AC2951000221F8D /* libSinaAdSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSinaAdSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB716691AC24FE900221F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB716A31AC2583A00221F8D /* CFNetwork.framework in Frameworks */,
+				CFB716A11AC2583000221F8D /* CoreTelephony.framework in Frameworks */,
+				CFB7169F1AC2582800221F8D /* SystemConfiguration.framework in Frameworks */,
+				CFB7169D1AC2581B00221F8D /* AdSupport.framework in Frameworks */,
+				CFB716A91AC2951000221F8D /* libSinaAdSDK.a in Frameworks */,
+				CFB7169B1AC2580B00221F8D /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB716821AC24FE900221F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFB716631AC24FE900221F8D = {
+			isa = PBXGroup;
+			children = (
+				CFB716A21AC2583A00221F8D /* CFNetwork.framework */,
+				CFB716A01AC2583000221F8D /* CoreTelephony.framework */,
+				CFB7169E1AC2582800221F8D /* SystemConfiguration.framework */,
+				CFB7169C1AC2581B00221F8D /* AdSupport.framework */,
+				CFB7169A1AC2580B00221F8D /* CoreLocation.framework */,
+				CFB7166E1AC24FE900221F8D /* SinaAdiOSSDKSample */,
+				CFB716881AC24FEA00221F8D /* SinaAdiOSSDKSampleTests */,
+				CFB7166D1AC24FE900221F8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB7166D1AC24FE900221F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB7166C1AC24FE900221F8D /* SinaAdiOSSDKSample.app */,
+				CFB716851AC24FE900221F8D /* SinaAdiOSSDKSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB7166E1AC24FE900221F8D /* SinaAdiOSSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				CFB716731AC24FE900221F8D /* AppDelegate.h */,
+				CFB716A81AC2951000221F8D /* libSinaAdSDK.a */,
+				CFB716981AC251FB00221F8D /* SinaEyeResource.bundle */,
+				CFB716951AC2519100221F8D /* SAFeedsAdView.h */,
+				CFB716741AC24FE900221F8D /* AppDelegate.m */,
+				CFB716761AC24FE900221F8D /* ViewController.h */,
+				CFB716771AC24FE900221F8D /* ViewController.m */,
+				CFB716791AC24FE900221F8D /* Main.storyboard */,
+				CFB7167C1AC24FE900221F8D /* Images.xcassets */,
+				CFB7167E1AC24FE900221F8D /* LaunchScreen.xib */,
+				CFB7166F1AC24FE900221F8D /* Supporting Files */,
+			);
+			path = SinaAdiOSSDKSample;
+			sourceTree = "<group>";
+		};
+		CFB7166F1AC24FE900221F8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFB716701AC24FE900221F8D /* Info.plist */,
+				CFB716711AC24FE900221F8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFB716881AC24FEA00221F8D /* SinaAdiOSSDKSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFB7168B1AC24FEA00221F8D /* SinaAdiOSSDKSampleTests.m */,
+				CFB716891AC24FEA00221F8D /* Supporting Files */,
+			);
+			path = SinaAdiOSSDKSampleTests;
+			sourceTree = "<group>";
+		};
+		CFB716891AC24FEA00221F8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFB7168A1AC24FEA00221F8D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFB7166B1AC24FE900221F8D /* SinaAdiOSSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB7168F1AC24FEA00221F8D /* Build configuration list for PBXNativeTarget "SinaAdiOSSDKSample" */;
+			buildPhases = (
+				CFB716681AC24FE900221F8D /* Sources */,
+				CFB716691AC24FE900221F8D /* Frameworks */,
+				CFB7166A1AC24FE900221F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinaAdiOSSDKSample;
+			productName = SinaAdiOSSDKSample;
+			productReference = CFB7166C1AC24FE900221F8D /* SinaAdiOSSDKSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFB716841AC24FE900221F8D /* SinaAdiOSSDKSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB716921AC24FEA00221F8D /* Build configuration list for PBXNativeTarget "SinaAdiOSSDKSampleTests" */;
+			buildPhases = (
+				CFB716811AC24FE900221F8D /* Sources */,
+				CFB716821AC24FE900221F8D /* Frameworks */,
+				CFB716831AC24FE900221F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB716871AC24FE900221F8D /* PBXTargetDependency */,
+			);
+			name = SinaAdiOSSDKSampleTests;
+			productName = SinaAdiOSSDKSampleTests;
+			productReference = CFB716851AC24FE900221F8D /* SinaAdiOSSDKSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB716641AC24FE900221F8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = esina;
+				TargetAttributes = {
+					CFB7166B1AC24FE900221F8D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CFB716841AC24FE900221F8D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CFB7166B1AC24FE900221F8D;
+					};
+				};
+			};
+			buildConfigurationList = CFB716671AC24FE900221F8D /* Build configuration list for PBXProject "SinaAdiOSSDKSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFB716631AC24FE900221F8D;
+			productRefGroup = CFB7166D1AC24FE900221F8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB7166B1AC24FE900221F8D /* SinaAdiOSSDKSample */,
+				CFB716841AC24FE900221F8D /* SinaAdiOSSDKSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB7166A1AC24FE900221F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB716991AC251FB00221F8D /* SinaEyeResource.bundle in Resources */,
+				CFB7167B1AC24FE900221F8D /* Main.storyboard in Resources */,
+				CFB716801AC24FE900221F8D /* LaunchScreen.xib in Resources */,
+				CFB7167D1AC24FE900221F8D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB716831AC24FE900221F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB716681AC24FE900221F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB716781AC24FE900221F8D /* ViewController.m in Sources */,
+				CFB716751AC24FE900221F8D /* AppDelegate.m in Sources */,
+				CFB716721AC24FE900221F8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB716811AC24FE900221F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB7168C1AC24FEA00221F8D /* SinaAdiOSSDKSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFB716871AC24FE900221F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFB7166B1AC24FE900221F8D /* SinaAdiOSSDKSample */;
+			targetProxy = CFB716861AC24FE900221F8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFB716791AC24FE900221F8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB7167A1AC24FE900221F8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFB7167E1AC24FE900221F8D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB7167F1AC24FE900221F8D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFB7168D1AC24FEA00221F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFB7168E1AC24FEA00221F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFB716901AC24FEA00221F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SinaAdiOSSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SinaAdiOSSDKSample",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFB716911AC24FEA00221F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SinaAdiOSSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SinaAdiOSSDKSample",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFB716931AC24FEA00221F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SinaAdiOSSDKSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaAdiOSSDKSample.app/SinaAdiOSSDKSample";
+			};
+			name = Debug;
+		};
+		CFB716941AC24FEA00221F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SinaAdiOSSDKSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaAdiOSSDKSample.app/SinaAdiOSSDKSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB716671AC24FE900221F8D /* Build configuration list for PBXProject "SinaAdiOSSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB7168D1AC24FEA00221F8D /* Debug */,
+				CFB7168E1AC24FEA00221F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB7168F1AC24FEA00221F8D /* Build configuration list for PBXNativeTarget "SinaAdiOSSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB716901AC24FEA00221F8D /* Debug */,
+				CFB716911AC24FEA00221F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFB716921AC24FEA00221F8D /* Build configuration list for PBXNativeTarget "SinaAdiOSSDKSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB716931AC24FEA00221F8D /* Debug */,
+				CFB716941AC24FEA00221F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFB716641AC24FE900221F8D /* Project object */;
+}

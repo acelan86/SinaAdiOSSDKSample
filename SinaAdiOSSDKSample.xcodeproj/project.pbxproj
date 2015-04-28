@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF1946B81AC8F9AC00D7958C /* libSinaAdSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1946B51AC8F9AC00D7958C /* libSinaAdSDK.a */; };
+		CF1946B91AC8F9AC00D7958C /* SinaEyeResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF1946B71AC8F9AC00D7958C /* SinaEyeResource.bundle */; };
 		CFB716721AC24FE900221F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB716711AC24FE900221F8D /* main.m */; };
 		CFB716751AC24FE900221F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB716741AC24FE900221F8D /* AppDelegate.m */; };
 		CFB716781AC24FE900221F8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB716771AC24FE900221F8D /* ViewController.m */; };
@@ -14,13 +16,11 @@
 		CFB7167D1AC24FE900221F8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB7167C1AC24FE900221F8D /* Images.xcassets */; };
 		CFB716801AC24FE900221F8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFB7167E1AC24FE900221F8D /* LaunchScreen.xib */; };
 		CFB7168C1AC24FEA00221F8D /* SinaAdiOSSDKSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB7168B1AC24FEA00221F8D /* SinaAdiOSSDKSampleTests.m */; };
-		CFB716991AC251FB00221F8D /* SinaEyeResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFB716981AC251FB00221F8D /* SinaEyeResource.bundle */; };
 		CFB7169B1AC2580B00221F8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB7169A1AC2580B00221F8D /* CoreLocation.framework */; };
 		CFB7169D1AC2581B00221F8D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB7169C1AC2581B00221F8D /* AdSupport.framework */; };
 		CFB7169F1AC2582800221F8D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB7169E1AC2582800221F8D /* SystemConfiguration.framework */; };
 		CFB716A11AC2583000221F8D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB716A01AC2583000221F8D /* CoreTelephony.framework */; };
 		CFB716A31AC2583A00221F8D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB716A21AC2583A00221F8D /* CFNetwork.framework */; };
-		CFB716A91AC2951000221F8D /* libSinaAdSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB716A81AC2951000221F8D /* libSinaAdSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF1946B51AC8F9AC00D7958C /* libSinaAdSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSinaAdSDK.a; sourceTree = "<group>"; };
+		CF1946B61AC8F9AC00D7958C /* SAFeedsAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFeedsAdView.h; sourceTree = "<group>"; };
+		CF1946B71AC8F9AC00D7958C /* SinaEyeResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SinaEyeResource.bundle; sourceTree = "<group>"; };
 		CFB7166C1AC24FE900221F8D /* SinaAdiOSSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaAdiOSSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB716701AC24FE900221F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFB716711AC24FE900221F8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,14 +50,11 @@
 		CFB716851AC24FE900221F8D /* SinaAdiOSSDKSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaAdiOSSDKSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB7168A1AC24FEA00221F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFB7168B1AC24FEA00221F8D /* SinaAdiOSSDKSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaAdiOSSDKSampleTests.m; sourceTree = "<group>"; };
-		CFB716951AC2519100221F8D /* SAFeedsAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFeedsAdView.h; sourceTree = "<group>"; };
-		CFB716981AC251FB00221F8D /* SinaEyeResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SinaEyeResource.bundle; sourceTree = "<group>"; };
 		CFB7169A1AC2580B00221F8D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CFB7169C1AC2581B00221F8D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		CFB7169E1AC2582800221F8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CFB716A01AC2583000221F8D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		CFB716A21AC2583A00221F8D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		CFB716A81AC2951000221F8D /* libSinaAdSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSinaAdSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 				CFB716A11AC2583000221F8D /* CoreTelephony.framework in Frameworks */,
 				CFB7169F1AC2582800221F8D /* SystemConfiguration.framework in Frameworks */,
 				CFB7169D1AC2581B00221F8D /* AdSupport.framework in Frameworks */,
-				CFB716A91AC2951000221F8D /* libSinaAdSDK.a in Frameworks */,
+				CF1946B81AC8F9AC00D7958C /* libSinaAdSDK.a in Frameworks */,
 				CFB7169B1AC2580B00221F8D /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF1946B41AC8F9AC00D7958C /* SinaAdiOSSDK-1.0.0-release */ = {
+			isa = PBXGroup;
+			children = (
+				CF1946B51AC8F9AC00D7958C /* libSinaAdSDK.a */,
+				CF1946B61AC8F9AC00D7958C /* SAFeedsAdView.h */,
+				CF1946B71AC8F9AC00D7958C /* SinaEyeResource.bundle */,
+			);
+			path = "SinaAdiOSSDK-1.0.0-release";
+			sourceTree = "<group>";
+		};
 		CFB716631AC24FE900221F8D = {
 			isa = PBXGroup;
 			children = (
@@ -108,11 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				CFB716731AC24FE900221F8D /* AppDelegate.h */,
-				CFB716A81AC2951000221F8D /* libSinaAdSDK.a */,
-				CFB716981AC251FB00221F8D /* SinaEyeResource.bundle */,
-				CFB716951AC2519100221F8D /* SAFeedsAdView.h */,
 				CFB716741AC24FE900221F8D /* AppDelegate.m */,
 				CFB716761AC24FE900221F8D /* ViewController.h */,
+				CF1946B41AC8F9AC00D7958C /* SinaAdiOSSDK-1.0.0-release */,
 				CFB716771AC24FE900221F8D /* ViewController.m */,
 				CFB716791AC24FE900221F8D /* Main.storyboard */,
 				CFB7167C1AC24FE900221F8D /* Images.xcassets */,
@@ -197,6 +205,7 @@
 				TargetAttributes = {
 					CFB7166B1AC24FE900221F8D = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = NS755EV8VJ;
 					};
 					CFB716841AC24FE900221F8D = {
 						CreatedOnToolsVersion = 6.2;
@@ -228,7 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFB716991AC251FB00221F8D /* SinaEyeResource.bundle in Resources */,
+				CF1946B91AC8F9AC00D7958C /* SinaEyeResource.bundle in Resources */,
 				CFB7167B1AC24FE900221F8D /* Main.storyboard in Resources */,
 				CFB716801AC24FE900221F8D /* LaunchScreen.xib in Resources */,
 				CFB7167D1AC24FE900221F8D /* Images.xcassets in Resources */,
@@ -373,14 +382,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SinaAdiOSSDKSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SinaAdiOSSDKSample",
+					"$(PROJECT_DIR)/SinaAdiOSSDKSample/SinaAdiOSSDK-1.0.0-release",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -388,14 +401,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SinaAdiOSSDKSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SinaAdiOSSDKSample",
+					"$(PROJECT_DIR)/SinaAdiOSSDKSample/SinaAdiOSSDK-1.0.0-release",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -452,6 +469,7 @@
 				CFB716911AC24FEA00221F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFB716921AC24FEA00221F8D /* Build configuration list for PBXNativeTarget "SinaAdiOSSDKSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +478,7 @@
 				CFB716941AC24FEA00221F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

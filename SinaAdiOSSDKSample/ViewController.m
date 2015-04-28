@@ -24,7 +24,8 @@
     //init
     _feedsAD = [[SAFeedsAdView alloc] initWithApprid:@"4"
                                               appkey:@"123123"
-                                  rootViewController:self];
+                                  rootViewController:self
+                                      feedsIconStyle:FeedsIconStyleBlack];
     //set delegate
     _feedsAD.delegate = self;
     //add to view

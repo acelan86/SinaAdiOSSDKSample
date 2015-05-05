@@ -22,8 +22,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     //init
-    _feedsAD = [[SAFeedsAdView alloc] initWithApprid:@"4"
-                                              appkey:@"123123"
+    _feedsAD = [[SAFeedsAdView alloc] initWithApprid:@"39"
+                                              appkey:@"33efb461b9ad0b0f733a38ce100787a8410620"
                                   rootViewController:self
                                       feedsIconStyle:FeedsIconStyleBlack];
     //set delegate
